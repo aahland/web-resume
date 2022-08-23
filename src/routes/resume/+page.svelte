@@ -418,17 +418,40 @@
 }
 
 @media screen and (min-width: 600px) {
+	#secondhalf {
+			flex-direction: row;
+			width: 90vh;
+			
+		}
 		#secondhalf p {
 			background-color: white;
 			font-size: large;
 		}
 
 		#skills {
-			width: 99%;
+			width: 80%;
+			max-width: 900px;
 		}
 
 		#links {
-			width: 99%;
+			width: 45vw;
+			max-width: 900px;
+		}
+
+		#educations {
+			max-width: 450px;
+		}
+
+		#experiences {
+			max-width: 450px;
+		}
+
+		main {
+			max-width: 450px;
+		}
+
+		h2 {
+			font-size: large;
 		}
 		
 	
