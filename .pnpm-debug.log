@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "web-resume@0.0.1",
+    "stage": "dev",
+    "script": "vite dev",
+    "pkgname": "web-resume",
+    "err": {
+      "name": "pnpm",
+      "message": "web-resume@0.0.1 dev: `vite dev`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: web-resume@0.0.1 dev: `vite dev`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/Users/antonahlander/.nvm/versions/node/v14.18.2/lib/node_modules/pnpm/dist/pnpm.cjs:91795:22)\n    at ChildProcess.emit (events.js:400:28)\n    at maybeClose (internal/child_process.js:1058:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}
