@@ -7,7 +7,7 @@
 		<p>ahlandera@hotmail.com</p>
 		<p>0709748277</p>
 	</div>
-	<main class="maincontent">
+	<div class="maincontent">
 		<div id="experienceWrapper">
 			<h2>EXPERIENCE</h2>
 			<div id="experiences">
@@ -155,52 +155,123 @@
 				</div>
 			</div>
 		</div>
-	</main>
+	</div>
 
 	<div id="secondhalf">
 		<div id="skillWrapper">
 			<h2>SKILLS</h2>
 			<div id="skills">
-				<div class="row">
+				<div class="ed" id="education1">
+					<div id="skillRooms">
+					<div class="skillgroup">
 					<p>HTML5</p>
 					<p>CSS</p>
 					<p>JavaScript</p>
 					<p>SvelteKit</p>
-					<p>Vue</p>
+					<p>Vue</p> 
+					</div>
+					<div class="skillgroup">
+						<p>HTML5</p>
+						<p>CSS</p>
+						<p>JavaScript</p>
+						<p>SvelteKit</p>
+						<p>Vue</p> 
+						</div>
+						<div class="skillgroup">
+							<p>HTML5</p>
+							<p>CSS</p>
+							<p>JavaScript</p>
+							<p>SvelteKit</p>
+							<p>Vue</p> 
+							</div>
+						</div>
+					<p class="descHack">
+						This is Super Hack, im so sorry both for you who has to see this and for myself, who actually did this....
+					</p>
+					<div>
+					<p> </p>
 				</div>
-				<div class="row">
-					<p>React</p>
-					<p>TypeScript</p>
+				</div>
+				
+				<!-- <p>Git Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ipsam aliquid ea nisi quo. Voluptates provident quas iste corrupti, necessitatibus quia libero dicta amet beatae esse ullam sit, sed veniam.</p> 
+				<div class="ed-left">
+					 <p>HTML5</p>
+					<p>CSS</p>
+					<p>JavaScript</p>
+					<p>SvelteKit</p>
+					<p>Vue</p> 
+				</div>
+				<div class="ed-left">
+					 <p>React</p> 
+					 <p>TypeScript</p>
 					<p>npm</p>
 					<p>Jest</p>
-					<p>Unit Test</p>
+					<p>Unit Test</p> 
 				</div>
-				<div class="row">
-					<p>Cypress</p>
+				<div class="ed-left">
+					 <p>Cypress</p>
 					<p>E2E</p>
 					<p>Scrum</p>
 					<p>CLI</p>
-					<p>GitHub</p>
+					<p>GitHub</p> 
 				</div>
-				<div class="row">
-					<p>Git</p>
-					<p>graphQL</p>
+				 <div class="row">
+					< <p>graphQL</p>
 					<p>Databases</p>
 					<p>CMS</p>
-					<p>SSR</p>
-				</div>
-				<div class="row" />
+					<p>SSR</p> 
+				</div> -->
+				
 			</div>
 		</div>
 		<div id="linksWrapper">
 			<h2>LINKS</h2>
 			<div id="links">
-				<img src="/images/linkedinLogo.png" alt="linkedIn logo" />
-				<img src="/images/githublogotype.png" alt="github logo" />
+				<div class="ed" id="education1">
+					
+						<!-- <p>Github</p>
+						<p>LinkedIn</p>
+
+						<p class="years">09.2020 - 09.2022</p> -->
+						<img src="/images/linkedinLogo.png" alt="linkedIn logo" />
+						<img src="/images/githublogotype.png" alt="github logo" />
+					<p class="descHack">
+						This is Super Hack, im so sorry both for you who has to see this and for myself, who actually did this....
+					</p>
+				</div>
+				<!-- <div class="ed" id="education2">
+					<div class="ed-left">
+						<h3>Grafisk Design - Mobila Enheter</h3>
+						<p>Kristianstad University</p>
+
+						<p class="years">2017</p>
+					</div>
+				</div>
+				<div class="ed" id="education3">
+					<div class="ed-left">
+						<h3>Typografi och digital publicering</h3>
+						<p>Linneaus University</p>
+
+						<p class="years">2017</p>
+					</div>
+				</div>
+				<div class="ed" id="education4">
+					<div class="ed-left">
+						<h3>Grafisk Design - Tryck/Print</h3>
+						<p>Kristianstad University</p>
+
+						<p class="years">2016</p>
+					</div>
+				</div> -->
+				<!-- <p>Git Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+					Est ipsam aliquid ea nisi quo. Voluptates provident quas iste corrupti, 
+					necessitatibus quia libero dicta amet beatae esse ullam sit, sed veniam.</p> -->
+				
 			</div>
 		</div>
 	</div>
 </div>
+
 
 <style>
 	img {
@@ -211,18 +282,33 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		width: 90vw;
+		width: 100%;
 		background-color: white;
 		align-items: center;
 	}
 
-	#experiences {
-		max-width: 500px;
-		text-align: center;
-		height: 40vh;
 
-		overflow: scroll;
+		
+	::-webkit-scrollbar {
+	width: 5px;
+
 	}
+
+	/* Track */
+	::-webkit-scrollbar-track { 
+		background-color: white;
+	
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: rgb(87, 162, 162);
+		border-radius: 10px;
+		height: 1px;
+		width: 1px; 
+	}
+	
+
 
 	.ex {
 		text-align: left;
@@ -251,10 +337,17 @@
 		color: rgb(240, 240, 240);
 	}
 
-	#educations {
-		max-width: 500px;
+	#experiences {
+		max-width: 450px;
 		text-align: center;
-		height: 40vh;
+		height: 300px;
+		overflow: scroll;
+	}
+
+	#educations {
+		max-width: 450px;
+		text-align: center;
+		height: 300px;
 		overflow: scroll;
 	}
 
@@ -269,15 +362,22 @@
 		flex-direction: row;
 		justify-content: space-between;
 		background-color: white;
-		width: 100%;
-		max-width: 980px;
+		gap: 10px;
 	}
 
 	#skills {
-		background-color: rgb(87, 162, 162);
+		/* background-color: rgb(87, 162, 162);
 		align-self: center;
 		border-radius: 5px;
 		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		max-width: 550px; */
+		max-width: 450px;
+		text-align: center;
+		height: 300px;
+		overflow: scroll;
+		
 
 		/* height: 30vh;
 		width: 40vw; */
@@ -289,17 +389,22 @@
 	}
 
 	#links {
-		background-color: rgb(87, 162, 162);
-		/* height: 21vh;
+		/*background-color: rgb(87, 162, 162);
+		 height: 21vh;
 		width: 37.5vw;
 
 		align-self: center;
 		border-radius: 5px;
 		padding: 10px;
-		margin: 10px 10px 0px 10px; */
+		margin: 10px 10px 0px 10px;
 		align-self: center;
 		border-radius: 5px;
-		overflow: hidden;
+		overflow: hidden; */
+		max-width: 450px;
+		text-align: center;
+		height: 300px;
+		overflow: scroll;
+		
 	}
 
 	h1 {
@@ -321,10 +426,10 @@
 		margin: 0px 0px 0px 5px;
 	}
 
-	p {
+	/* p {
 		margin: 5px;
-	}
-
+	} */
+/* 
 	#secondhalf p {
 		background-color: rgb(240, 240, 240);
 		width: fit-content;
@@ -332,11 +437,27 @@
 		border-radius: 10px;
 		padding: 0px 5px 0px 5px;
 		font-size: small;
-	}
+	} */
 
-	.row {
+	/* .row {
 		display: flex;
 		flex-direction: row;
+	} */
+
+	.skillgroup {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		
+		
+	}
+
+	.skillgroup p {
+		background: white; 
+		color:rgb(87, 162, 162);
+		border-radius: 10px;
+		padding: 3px 10px 3px 10px;
+	
 	}
 
 	#resumeContainer {
@@ -345,17 +466,22 @@
 		justify-content: center;
 		align-content: center;
 		align-items: center;
+		font-family: monospace;
 	}
 
-	@media screen and (min-width: 320px) {
+	.descHack {
+			color:rgb(87, 162, 162);
+		}
+
+	/*@media screen and (min-width: 320px) {
 		#secondhalf {
 			flex-direction: column;
 			width: inherit;
 		}
 
-		/* #secondhalf h2{
+		 #secondhalf h2{
 
-		} */
+		} 
 
 		#secondhalf p {
 			font-size: small;
@@ -420,8 +546,8 @@
 		}
 	} */
 
-	@media screen and (min-width: 600px) {
-		/* #secondhalf {
+/*	@media screen and (min-width: 600px) {
+		 #secondhalf {
 			flex-direction: row;
 			width: 90vh;
 		}
@@ -457,6 +583,8 @@
 		} */
 		/* #secondhalf {
 			flex-direction: row;
-		} */
-	}
+		} 
+	}*/
+
+
 </style>
