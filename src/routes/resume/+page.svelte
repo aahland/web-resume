@@ -418,10 +418,10 @@
 		.row {
 			flex-direction: row;
 		}
-	}
+	} */
 
 	@media screen and (min-width: 600px) {
-		#secondhalf {
+		/* #secondhalf {
 			flex-direction: row;
 			width: 90vh;
 		}
@@ -455,4 +455,8 @@
 		h2 {
 			font-size: large;
 		} */
+		/* #secondhalf {
+			flex-direction: row;
+		} */
+	}
 </style>
