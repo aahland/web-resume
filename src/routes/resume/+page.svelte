@@ -13,7 +13,8 @@
 			<div id="experiences">
 				<div class="ex" id="experience1">
 					<div class="ex-top">
-						<h3>Frontend Developer - Coolstuff</h3>
+						<h3>Frontend Developer</h3>
+						<h3>Coolstuff</h3>
 					</div>
 					<p class="years">01.2022 - Present</p>
 					<p class="desc">
@@ -92,7 +93,7 @@
 				<div class="ed" id="education1">
 					<div class="ed-left">
 						<h3>Frontend Development</h3>
-						<p>Mediainstitutet</p>
+						<p class="school">Mediainstitutet</p>
 						<p class="years">09.2020 - 09.2022</p>
 					</div>
 					<p class="desc">
@@ -102,35 +103,35 @@
 				<div class="ed" id="education2">
 					<div class="ed-left">
 						<h3>Graphic Design - Mobile devices</h3>
-						<p>Kristianstad University</p>
+						<p class="school">Kristianstad University</p>
 						<p class="years">2017</p>
 					</div>
 				</div>
 				<div class="ed" id="education3">
 					<div class="ed-left">
 						<h3>Typography & digital publishing</h3>
-						<p>Linneaus University</p>
+						<p class="school">Linneaus University</p>
 						<p class="years">2017</p>
 					</div>
 				</div>
 				<div class="ed" id="education4">
 					<div class="ed-left">
 						<h3>Graphic Design - Printed material</h3>
-						<p>Kristianstad University</p>
+						<p class="school">Kristianstad University</p>
 						<p class="years">2016</p>
 					</div>
 				</div>
 				<div class="ed" id="education5">
 					<div class="ed-left">
 						<h3>Graphic Design - Introduction course</h3>
-						<p>Kristianstad University</p>
+						<p class="school">Kristianstad University</p>
 						<p class="years">2016</p>
 					</div>
 				</div>
 				<div class="ed" id="education6">
 					<div class="ed-left">
 						<h3>Personalvetenskap / Human Resources</h3>
-						<p>Gothenburg University</p>
+						<p class="school">Gothenburg University</p>
 						<p class="years">2014 - 2015</p>
 					</div>
 				</div>
@@ -232,8 +233,9 @@
 
 	.ex-top {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		font-size: larger;
+		margin-top: 0px;
 	}
 
 	.ed-left {
@@ -466,6 +468,15 @@
 
 		.ex-left {
 			font-size: larger;
+		}
+
+		.years {
+			font-size: small;
+		}
+
+		.school {
+			margin: 0px 0px 0px 0px;
+			font-weight: bold;
 		}
 
 		h2 {
