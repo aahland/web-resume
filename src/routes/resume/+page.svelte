@@ -18,8 +18,8 @@
 					</div>
 					<p class="years">01.2022 - Present</p>
 					<p class="desc">
-						A 26 weeks long internship at Coolstuff where I've been working on 
-						"day-to-day" tasks like writing new features, bug fixes, style tasks etc. And also on a larger, standalone
+						A 26 weeks long internship at Coolstuff where I've been working on "day-to-day" tasks
+						like writing new features, bug fixes, style tasks etc. And also on a larger, standalone
 						project. Working with Javascript, Svelte, TypeScript, graphQL, Jest, Cypress, version
 						handling with Git/Github.
 					</p>
@@ -139,55 +139,52 @@
 		</div>
 	</div>
 	<div id="secondhalf">
-			<h2>SKILLS</h2>
-			<div id="skills">
-				<div  id="skillsdiv">
-					<div id="skillRooms">
+		<h2>SKILLS</h2>
+		<div id="skills">
+			<div id="skillsdiv">
+				<div id="skillRooms">
 					<div class="skillgroup">
 						<p class="skill">HTML5</p>
 						<p class="skill">CSS</p>
 						<p class="skill">JavaScript</p>
 						<p class="skill">SvelteKit</p>
-						<p class="skill">Vue</p> 	
-						<p class="skill">Cypress</p>
-						<p class="skill">E2E</p>
+						<p class="skill">TypeScript</p>
+						<p class="skill">Vue</p>
+						<p class="skill">React</p>
 						<p class="skill">Scrum</p>
 						<p class="skill">CLI</p>
-						<p class="skill">GitHub</p> 
-						<p class="skill">React</p> 
-						<p class="skill">TypeScript</p>
+						<p class="skill">GitHub</p>
 						<p class="skill">npm</p>
 						<p class="skill">Jest</p>
-						<p class="skill">Unit Test</p> 
+						<p class="skill">Unit Test</p>
+						<p class="skill">Cypress</p>
+						<p class="skill">E2E</p>
 					</div>
-					</div>
-				<div>
-			</div>
-			</div>
-			</div>
-			<h2>LINKS</h2>
-			<div id="linkswrapper">
-				<div id="links">
-					<div id="linkedinContainer">	
-						<img id="linkedin" src="/images/linkedinLogo.png" alt="linkedIn logo" />
-					</div>
-						<img id="github"  src="/images/githublogotype.png" alt="github logo" />
 				</div>
+				<div />
 			</div>
+		</div>
+		<h2>LINKS</h2>
+		<div id="linkswrapper">
+			<div id="links">
+				<div id="linkedinContainer">
+					<img id="linkedin" src="/images/linkedinLogo.png" alt="linkedIn logo" />
+				</div>
+				<img id="github" src="/images/githublogotype.png" alt="github logo" />
+			</div>
+		</div>
 	</div>
 </div>
-
 
 <style>
 	img {
 		height: 80px;
-    	-webkit-filter: invert(100%); 
-    	filter: invert(100%);
+		-webkit-filter: invert(100%);
+		filter: invert(100%);
 	}
 
 	#github {
-		height: 85px
-
+		height: 85px;
 	}
 
 	#linkedinContainer {
@@ -204,20 +201,18 @@
 	}
 
 	::-webkit-scrollbar {
-	width: 5px;
-
+		width: 5px;
 	}
 
-	::-webkit-scrollbar-track { 
+	::-webkit-scrollbar-track {
 		background-color: white;
-	
 	}
 
 	::-webkit-scrollbar-thumb {
 		background: rgb(87, 162, 162);
 		border-radius: 10px;
 		height: 1px;
-		width: 1px; 
+		width: 1px;
 	}
 
 	.ex {
@@ -271,7 +266,6 @@
 		text-align: center;
 		height: 300px;
 		overflow: scroll;
-	
 	}
 
 	#educations {
@@ -295,7 +289,6 @@
 		gap: 10px;
 		width: 100%;
 		max-width: 900px;
-		
 	}
 
 	#secondhalf h2 {
@@ -304,16 +297,13 @@
 
 	#skills {
 		text-align: center;
-		max-height: 150px; 
+		max-height: 150px;
 		overflow: hidden;
 	}
 
-	#linkswrappe {
-		
+	#linkswrapper {
 		text-align: center;
 		height: 300px;
-	
-		
 	}
 
 	#links {
@@ -323,14 +313,13 @@
 		gap: 1rem;
 		grid-template-columns: repeat(4, 1fr);
 		justify-content: center;
-   		align-content: center;
-    	flex-wrap: wrap;
+		align-content: center;
+		flex-wrap: wrap;
 		background-color: rgb(87, 162, 162);
 		border-radius: 5px;
 		text-align: center;
 		margin: 10px 10px 0px 10px;
 		padding: 50px 100px 50px 100px;
-
 	}
 
 	#phonenumber {
@@ -339,14 +328,13 @@
 
 	#email {
 		margin-bottom: 2px;
-		margin-top:1px;
+		margin-top: 1px;
 	}
 
 	h1 {
 		color: rgb(87, 162, 162);
 		font-size: 50px;
 		margin-bottom: 0px;
-		
 	}
 
 	h2 {
@@ -362,7 +350,7 @@
 		padding: 0px;
 		margin: 0px 0px 0px 0px;
 	}
-	
+
 	.skillgroup {
 		max-width: 800px;
 		margin: 0 auto;
@@ -370,19 +358,15 @@
 		gap: 1rem;
 		grid-template-columns: repeat(4, 1fr);
 		justify-content: center;
-   		align-content: center;
-    	flex-wrap: wrap;
-		
-		
-		
+		align-content: center;
+		flex-wrap: wrap;
 	}
 
 	.skillgroup p {
-		background: white; 
-		color:rgb(87, 162, 162);
+		background: white;
+		color: rgb(87, 162, 162);
 		border-radius: 10px;
 		padding: 3px 10px 3px 10px;
-	
 	}
 
 	.skill {
@@ -400,10 +384,10 @@
 	}
 
 	.descHack {
-			color:rgb(87, 162, 162);
-		}
+		color: rgb(87, 162, 162);
+	}
 
-	@media screen and (max-width: 375px) {
+	@media screen and (max-width: 450px) {
 		.ed {
 			font-size: small;
 		}
@@ -420,15 +404,17 @@
 		}
 
 		.skill {
-		font-weight: bolder;
-		font-size: medium;
+			font-weight: bolder;
+			font-size: medium;
+		}
+
+		#skills {
+			overflow: scroll;
 		}
 
 		#secondhalf h2 {
-		margin-bottom: 10px;
+			margin-bottom: 10px;
 		}
-
-
 	}
 
 	@media screen and (max-width: 600px) {
@@ -440,7 +426,7 @@
 			font-size: medium;
 		}
 
-		.ex-left {
+		.ex-top {
 			font-size: large;
 		}
 
@@ -450,11 +436,9 @@
 		}
 
 		#secondhalf h2 {
-		font-size: x-large;
-		margin-bottom: 10px;
+			font-size: x-large;
+			margin-bottom: 10px;
 		}
-
-
 	}
 
 	@media screen and (max-width: 900px) {
@@ -466,7 +450,7 @@
 			font-size: large;
 		}
 
-		.ex-left {
+		.ex-top {
 			font-size: larger;
 		}
 
@@ -485,27 +469,28 @@
 		}
 
 		#secondhalf h2 {
-		font-size: xx-large;
-		margin-bottom: 10px;
+			font-size: xx-large;
+			margin-bottom: 10px;
 		}
-
-
 	}
 
 	@media screen and (max-width: 1440px) {
-		
 		h2 {
-			
-			margin-bottom: 10px;
+			margin-bottom: 15px;
 		}
 
 		#secondhalf h2 {
-	
-			margin-bottom: 0px;
+			margin-bottom: 10px;
 		}
-
-
 	}
 
-	
+	@media screen and (max-width: 2040px) {
+		h2 {
+			margin-bottom: 15px;
+		}
+
+		#secondhalf h2 {
+			margin-bottom: 10px;
+		}
+	}
 </style>
