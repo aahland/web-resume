@@ -1,0 +1,41 @@
+{
+
+    "education": [ {
+        "title": "Frontend Development",
+        "school" : "Medieinstitutet",
+        "dates": "09.2020 - 09.2022",
+        "desc": "Studying Frontend-Development at Mediainstitutet, graduating September 28th, 2022."
+    },
+    {
+        "title": "Mobile devices",
+        "school" : "Kristianstad University",
+        "dates": "2017",
+        "desc": "Graphic design course, designing for mobile devices."
+    },
+    {
+        "title": "Typography & digital publishing",
+        "school" : "Linneaus University",
+        "dates": "2017",
+        "desc": "Course in typography and digital publishing with adobe inDesign."
+    },
+    {
+        "title": "Print",
+        "school" : "Kristianstad University",
+        "dates": "2016",
+        "desc": "Graphic design course designing for printed products."
+    },
+    {
+        "title": "Graphic Design",
+        "school" : "Kristianstad University",
+        "dates": "2016",
+        "desc": "Graphic design introduction course."
+    },
+    {
+        "title": "Human Resources",
+        "school" : "Gothenburg University",
+        "dates": "2014 - 2015",
+        "desc": "Human Resource program at GU. Quit then studies after 2 semesters."
+    }
+
+]
+}

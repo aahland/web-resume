@@ -1,0 +1,47 @@
+{
+
+    "experiences": [ {
+        "title": "Frontend Developer",
+        "org" : "Coolstuff",
+        "dates": "01.2022 - Present",
+        "desc": "A 26 weeks long internship at Coolstuff where I've been working on day-to-day tasks like writing new features, bug fixes, style tasks etc. And also on a larger, standalone project. Working with Javascript, Svelte, TypeScript, graphQL, Jest, Cypress, version handling with Git/Github."
+    },
+     { 
+        "title": "Researcher",
+        "org": "Mercuri Urval",
+        "dates": "05.2018 - 07.2020",
+        "desc": "Headhunting, Executive Search and Professional Recruitment of managers and specialistsin different sectors. Both national and international projects. Last 9 months I have been part of the Global Talent Acquisition Team with focus on Sweden."
+    },
+    { 
+        "title": "Team Operation Coordinator",
+        "org": "Mercuri Urval",
+        "dates": "11.2017 - 05.2018",
+        "desc": "Administrate and coordinate recruitment projects: handle invoices, communicate and arrange meetings, manage receipts and account coding of expense reports, team support."
+    },
+    { 
+        "title": "Office Manager",
+        "org": "Mercuri Urval",
+        "dates": "08.2017 - 11.2017",
+        "desc": "Interim office manager, working with reception, purchase, suppliers etc."
+    },
+    { 
+        "title": "Staffing & Recruitment Assistant",
+        "org": "Academic Work",
+        "dates": "01.2015 - 08.2016",
+        "desc": "Team IT/Tech. Part time job during studies. Full time recruiters in their processes. Advertisement, selection, phone interviews, face-to-face interviews. Last 2-3 months full time."
+    },
+    { 
+        "title": "ITC",
+        "org": "Mercuri Urval",
+        "dates": "09.2013 - 08.2014",
+        "desc": "Responsible for the IT situation at the Sweden offices. Users, personal computers, purchase, networks etc. Worked 3 days a week as an interim."
+    },
+    { 
+        "title": "Deli/Sales",
+        "org": "Ica Gruppen",
+        "dates": "05.2012 - 04.2014",
+        "desc": "Worked in the fresh food department with fish, meats and cheese. I did also work as a cashier."
+    }
+
+]
+}
