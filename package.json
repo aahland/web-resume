@@ -12,12 +12,13 @@
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write ."
 	},
-	"engines": {    
-        "node": "16.x",
-        "npm": "8.x"
-    },
+	"engines": {
+		"node": "16.x",
+		"npm": "8.x"
+	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-cloudflare": "^1.0.0-next.32",
 		"@sveltejs/adapter-node": "^1.0.0-next.87",
 		"@sveltejs/kit": "next",
 		"eslint": "^8.16.0",
