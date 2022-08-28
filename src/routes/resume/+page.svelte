@@ -290,10 +290,6 @@ import education from "../../lib/educationData.json";
 			font-family: monospace;
 		}
 	
-		.descHack {
-			color: rgb(87, 162, 162);
-		}
-
 		#skills {
 			padding: 5px;
 		}

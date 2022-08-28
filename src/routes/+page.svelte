@@ -11,11 +11,11 @@
 	}
 
 	function openResume() {
-		window.location.href = 'http://127.0.0.1:5173/resume';
+		window.location.href = 'https://web-resume-aahland.herokuapp.com/resume';
 	}
 
 	function openAbout() {
-		window.location.href = 'http://127.0.0.1:5173/about';
+		window.location.href = 'https://web-resume-aahland.herokuapp.com/about';
 	}
 </script>
 
