@@ -1,10 +1,8 @@
 <script>
 	function openNav() {
-		console.log('clicked');
 		let navContainer = document.getElementById('navContainer');
 		if (navContainer) {
 			navContainer.style.visibility = 'visible';
-			console.log('this is it');
 		}
 		let textLogo = document.getElementById('textLogo');
 		if (textLogo) {

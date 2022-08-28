@@ -2,8 +2,7 @@
 
 import experiences from "../../lib/experienceData.json";
 import education from "../../lib/educationData.json";
-console.log(experiences)
-console.log(education)
+
 
 </script>
 <div id="resumeContainer">
