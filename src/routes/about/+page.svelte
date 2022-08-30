@@ -1,3 +1,5 @@
+<script></script>
+
 <div id="wrapper">
 	<div id="letter-container">
 		<h1>Hello!</h1>
