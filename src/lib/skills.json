@@ -1,0 +1,21 @@
+
+ [
+        {"skill": "HTML5"},
+        {"skill": "CSS3"},
+        {"skill": "Javascript"},
+        {"skill": "SvelteKit"},
+        {"skill": "TypeScript"},
+        {"skill": "Vue"},
+        {"skill": "React"},
+        {"skill": "CLI"},
+        {"skill": "Github"},
+        {"skill": "Git"},
+        {"skill": "npm"},
+        {"skill": "Jest"},
+        {"skill": "Unit testing"},
+        {"skill": "Cypress"},
+        {"skill": "E2E"},
+        {"skill": "Tailwind"},
+        {"skill": "Databases"},
+        {"skill": "API"}
+    ]

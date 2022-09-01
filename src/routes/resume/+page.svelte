@@ -1,6 +1,7 @@
 <script>
 	import experiences from '../../lib/experienceData.json';
 	import education from '../../lib/educationData.json';
+	import skills from '../../lib/skills.json';
 </script>
 
 <div id="resumeContainer">
@@ -9,7 +10,6 @@
 		<p id="email">ahlandera@hotmail.com</p>
 		<p id="phonenumber">0709748277</p>
 	</div>
-
 	<div class="maincontent">
 		<div id="experienceWrapper">
 			<h2>EXPERIENCE</h2>
@@ -26,7 +26,6 @@
 				{/each}
 			</div>
 		</div>
-
 		<div id="educationWrapper">
 			<h2>EDUCATION</h2>
 			<div id="educations">
@@ -43,43 +42,26 @@
 			</div>
 		</div>
 	</div>
-	<div id="secondhalf">
+	<div id="skillsAndLinks">
 		<h2>SKILLS</h2>
 		<div id="skills">
-			<div id="skillsdiv">
-				<div id="skillRooms">
-					<div class="skillgroup">
-						<p class="skill">HTML5</p>
-						<p class="skill">CSS</p>
-						<p class="skill">JavaScript</p>
-						<p class="skill">SvelteKit</p>
-						<p class="skill">TypeScript</p>
-						<p class="skill">Vue</p>
-						<p class="skill">React</p>
-						<p class="skill">Scrum</p>
-						<p class="skill">CLI</p>
-						<p class="skill">GitHub</p>
-						<p class="skill">npm</p>
-						<p class="skill">Jest</p>
-						<p class="skill">Unit Test</p>
-						<p class="skill">Cypress</p>
-						<p class="skill">E2E</p>
-					</div>
-				</div>
-				<div />
-			</div>
+			<div class="skillsGrid">
+				{#each skills as { skill }}
+				  <p class="skill">{skill}</p>
+				{/each}
+	        </div>
 		</div>
 		<h2>LINKS</h2>
 		<div id="linkswrapper">
 			<div id="links">
 				<div id="linkedinContainer">
-					<a href="https://www.linkedin.com/in/anton-%C3%A5hlander-038a3a42/"
-						><img id="linkedin" src="/images/linkedinLogo.png" alt="linkedIn logo" /></a
-					>
+					<a href="https://www.linkedin.com/in/anton-%C3%A5hlander-038a3a42/">
+						<img id="linkedin" src="/images/linkedinLogo.png" alt="linkedIn logo" />
+					</a>
 				</div>
-				<a href="https://github.com/aahland"
-					><img id="github" src="/images/githublogotype.png" alt="github logo" /></a
-				>
+				<a href="https://github.com/aahland">
+					<img id="github" src="/images/githublogotype.png" alt="github logo" />
+				</a>
 			</div>
 		</div>
 	</div>
@@ -158,18 +140,6 @@
 		font-size: larger;
 	}
 
-	#skillsdiv {
-		text-align: left;
-		align-content: center;
-		align-items: center;
-		border-radius: 5px;
-		padding: 0px;
-		margin: 10px 10px 0px 10px;
-		background-color: rgb(87, 162, 162);
-		color: rgb(240, 240, 240);
-		font-size: larger;
-	}
-
 	#experiences {
 		max-width: 450px;
 		text-align: center;
@@ -190,7 +160,7 @@
 		text-align: center;
 	}
 
-	#secondhalf {
+	#skillsAndLinks {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -200,14 +170,17 @@
 		max-width: 900px;
 	}
 
-	#secondhalf h2 {
-		margin: 0px;
-	}
 
 	#skills {
 		text-align: center;
-		max-height: 150px;
-		overflow: hidden;
+		align-content: center;
+		align-items: center;
+		border-radius: 5px;
+		padding: 10px;
+		margin: 10px 10px 0px 10px;
+		background-color: rgb(87, 162, 162);
+		color: rgb(240, 240, 240);
+		font-size: larger;
 	}
 
 	#linkswrapper {
@@ -228,7 +201,7 @@
 		border-radius: 5px;
 		text-align: center;
 		margin: 10px 10px 0px 10px;
-		padding: 50px 100px 50px 100px;
+		padding: 25px 100px 25px 100px;
 	}
 
 	#phonenumber {
@@ -260,18 +233,17 @@
 		margin: 0px 0px 0px 0px;
 	}
 
-	.skillgroup {
+	.skillsGrid {
 		max-width: 800px;
 		margin: 0 auto;
 		display: flex;
 		gap: 1rem;
-		grid-template-columns: repeat(4, 1fr);
 		justify-content: center;
 		align-content: center;
 		flex-wrap: wrap;
 	}
 
-	.skillgroup p {
+	.skillsGrid p {
 		background: white;
 		color: rgb(87, 162, 162);
 		border-radius: 10px;
@@ -321,10 +293,6 @@
 			max-height: none;
 		}
 
-		#secondhalf h2 {
-			margin-bottom: 10px;
-		}
-
 		#skillRooms {
 			height: fit-content;
 		}
@@ -348,14 +316,6 @@
 			margin-bottom: 10px;
 		}
 
-		#secondhalf h2 {
-			font-size: x-large;
-			margin-bottom: 10px;
-		}
-
-		#skills {
-			overflow: scroll;
-		}
 	}
 
 	@media screen and (max-width: 900px) {
@@ -385,10 +345,10 @@
 			margin-bottom: 10px;
 		}
 
-		#secondhalf h2 {
+		/* #secondhalf h2 {
 			font-size: xx-large;
 			margin-bottom: 10px;
-		}
+		} */
 	}
 
 	@media screen and (max-width: 1440px) {
@@ -396,7 +356,7 @@
 			margin-bottom: 15px;
 		}
 
-		#secondhalf h2 {
+		#skillsAndLinks h2 {
 			margin-bottom: 0px;
 		}
 	}
@@ -406,7 +366,7 @@
 			margin-bottom: 15px;
 		}
 
-		#secondhalf h2 {
+		#skillsAndLinks h2 {
 			margin-bottom: 0px;
 		}
 	}
