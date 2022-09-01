@@ -11,11 +11,11 @@
 	}
 
 	function openResume() {
-		window.location.href = 'https://21adb6fa.web-resume-775.pages.dev/resume';
+		window.location.href = 'https://web-resume-775.pages.dev/resume';
 	}
 
 	function openAbout() {
-		window.location.href = 'https://21adb6fa.web-resume-775.pages.dev/about';
+		window.location.href = 'https://web-resume-775.pages.dev/about';
 	}
 </script>
 
