@@ -47,9 +47,9 @@
 		<div id="skills">
 			<div class="skillsGrid">
 				{#each skills as { skill }}
-				  <p class="skill">{skill}</p>
+					<p class="skill">{skill}</p>
 				{/each}
-	        </div>
+			</div>
 		</div>
 		<h2>LINKS</h2>
 		<div id="linkswrapper">
@@ -167,9 +167,8 @@
 		background-color: white;
 		gap: 10px;
 		width: 100%;
-		max-width: 900px;
+		max-width: 850px;
 	}
-
 
 	#skills {
 		text-align: center;
@@ -303,6 +302,14 @@
 			font-size: medium;
 		}
 
+		.maincontent {
+			flex-direction: column;
+		}
+
+		#skillsAndLinks {
+			max-width: 450px;
+		}
+
 		.ex {
 			font-size: medium;
 		}
@@ -315,16 +322,19 @@
 			font-size: x-large;
 			margin-bottom: 10px;
 		}
-
 	}
 
-	@media screen and (max-width: 900px) {
+	@media screen and (min-width: 900px) {
 		.ed {
 			font-size: large;
 		}
 
 		.ex {
 			font-size: large;
+		}
+
+		#skillsAndLinks {
+			max-width: 800px;
 		}
 
 		.ex-top {
@@ -351,13 +361,18 @@
 		} */
 	}
 
-	@media screen and (max-width: 1440px) {
+	@media screen and (min-width: 900px) {
 		h2 {
 			margin-bottom: 15px;
 		}
 
 		#skillsAndLinks h2 {
 			margin-bottom: 0px;
+		}
+
+		#skillsAndLinks {
+			max-width: 850px;
+			min-width: 900px;
 		}
 	}
 

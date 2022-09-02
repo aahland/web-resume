@@ -1,15 +1,4 @@
 <script>
-	// function openNav() {
-	// 	let navContainer = document.getElementById('navContainer');
-	// 	if (navContainer) {
-	// 		navContainer.style.visibility = 'visible';
-	// 	}
-	// 	let textLogo = document.getElementById('textLogo');
-	// 	if (textLogo) {
-	// 		textLogo.remove();
-	// 	}
-	// }
-
 	function openResume() {
 		window.location.href = 'https://web-resume-775.pages.dev/resume';
 	}
