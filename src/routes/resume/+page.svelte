@@ -354,11 +354,6 @@
 			font-size: xx-large;
 			margin-bottom: 10px;
 		}
-
-		/* #secondhalf h2 {
-			font-size: xx-large;
-			margin-bottom: 10px;
-		} */
 	}
 
 	@media screen and (min-width: 900px) {

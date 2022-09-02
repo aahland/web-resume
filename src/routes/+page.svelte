@@ -14,7 +14,8 @@
 
 <div id="container">
 	<div id="textLogo">
-		<p>Anton Åhlander</p>
+		<p id="name">Anton Åhlander</p>
+		<p class="dots">...</p>
 		<p>aahland</p>
 	</div>
 	<div id="animationContainer">
@@ -38,6 +39,18 @@
 		align-items: center;
 		height: 100vh;
 		justify-content: center;
+	}
+
+	.dots {
+		color: rgb(87, 162, 162);
+		margin: 0px;
+		margin-bottom: 10px;
+		font-size: 30px;
+		line-height: 10px;
+	}
+
+	#name {
+		margin-bottom: 0px;
 	}
 
 	#animationContainer {
@@ -70,16 +83,12 @@
 		font-family: monospace;
 		font-size: larger;
 		text-align: center;
-		margin-bottom: 40px;
+		margin-bottom: 55px;
 	}
 
 	p {
 		margin-top: 0px;
 	}
-
-	/* #enterBtn:hover {
-		background: rgb(252, 177, 190);
-	} */
 
 	#navContainer {
 		visibility: visible;
@@ -105,22 +114,10 @@
 		font-size: larger;
 	}
 
-	#portfolioBtn {
-		border: 2px solid black;
-		width: fit-content;
-		height: 40px;
-		width: fit-content;
-		background: white;
-		font-family: monospace;
-		font-size: larger;
-	}
-
-	#portfolioBtn:hover {
-		background: rgb(252, 177, 190);
-	}
-
 	.navBtn:hover {
-		background: rgb(252, 177, 190);
+		background: rgb(87, 162, 162);
+		color: white;
+		border: 1px solid white;
 	}
 
 	#aboutBtn {
@@ -130,7 +127,5 @@
 	#resumeBtn {
 		margin-right: 10px;
 		width: 72px;
-		color: black;
-		text-decoration: none;
 	}
 </style>

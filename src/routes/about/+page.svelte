@@ -34,10 +34,8 @@
 			of mine and, when possible, the snow equivalent. I also enjoy drawing and illustrating, hanging
 			out with friends, cooking food and playing games.<br /><br />
 			So either you are here, just snooping around (which is completely fine), or you might have a work
-			opportunity for me. If that is the case you should get in touch! contact me. You´ll find my contact
-			information in my resume.
-
-			<a href="https://21adb6fa.web-resume-775.pages.dev/resume">resume</a>
+			opportunity for me. If that is the case you should get in touch! You´ll find my contact information
+			in my <a href="https://21adb6fa.web-resume-775.pages.dev/resume">resume</a>.
 		</p>
 	</div>
 </div>
@@ -56,6 +54,7 @@
 		font-family: monospace;
 		line-height: 20px;
 		font-size: large;
+		margin-top: 20px;
 	}
 
 	p {
@@ -64,10 +63,27 @@
 	}
 
 	h1 {
-		font-family: French Script MT;
 		font-size: 70px;
 		margin-bottom: 40px;
 		margin-top: 30px;
 		margin-left: 40px;
+	}
+
+	a {
+		color: white;
+	}
+
+	@media screen and (max-width: 600px) {
+		p {
+			margin-left: 10px;
+		}
+
+		h1 {
+			margin-left: 10px;
+		}
+
+		#letter-container {
+			margin-top: 0px;
+		}
 	}
 </style>
