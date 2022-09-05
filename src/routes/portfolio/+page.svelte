@@ -20,18 +20,18 @@
 	}
 
 	#animationLogo {
-		background: url('/src/lib/yellowhatsprite.png');
-		height: 205px;
-		width: 150px;
-		animation: animateCoder 2s steps(13) infinite;
+		background: url('/src/lib/colorhat.png');
+		height: 190px;
+		width: 260px;
+		animation: animateCoder 5s steps(13) infinite;
 	}
 
 	@keyframes animateCoder {
 		from {
-			background-position: 1px;
+			background-position: 0px;
 		}
 		to {
-			background-position: 2000px;
+			background-position: 3305px;
 		}
 	}
 
