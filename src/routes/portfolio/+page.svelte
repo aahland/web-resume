@@ -1,72 +1,202 @@
+<script>
+</script>
+
 <div id="wrapper">
-	<div />
-	<div id="animationContainer">
-		<div id="animationLogo" />
+	<div id="header">
+		<h1>Portfolio</h1>
+		<p>
+			Welcome to my portfolio! Below I have listed a few projects that I have done in the year of
+			2022
+		</p>
 	</div>
-	<div class="typewriter">
-		<p>Under Production...</p>
+	<div id="portfolioContent">
+		<div id="vadFanSka">
+			<div class="textAboutProject">
+				<h2>Vadfanskajagköpa.se</h2>
+				<p class="description">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, dolores magni, eligendi
+					autem corporis harum omnis quia explicabo laboriosam nemo, fugiat dolore maxime doloremque
+					sequi optio architecto eum veniam tempore!
+				</p>
+				<a href="www.vadfanskajagkopa.se">www.vadfanskajagkopa.se</a>
+				<a href="github.com">github-link-if-possible</a>
+			</div>
+			<div class="imageWrapper">
+				<img src="images/vadfanskaMockup.png" alt="mobile and desktop view of application" />
+			</div>
+		</div>
+		<div id="lyricalGenius">
+			<div class="textAboutProject">
+				<h2>Lyrical Genius</h2>
+				<p class="description">
+					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, dolores magni, eligendi
+					autem corporis harum omnis quia explicabo laboriosam nemo, fugiat dolore maxime doloremque
+					sequi optio architecto eum veniam tempore!
+				</p>
+				<a href="https://quiz-lyrical-genius.herokuapp.com"
+					>https://quiz-lyrical-genius.herokuapp.com/</a
+				>
+				<a href="https://github.com/aahland/lyrical-genius"
+					>https://github.com/aahland/lyrical-genius</a
+				>
+			</div>
+			<div class="imageWrapper">
+				<img
+					src="images/lyricalgeniusquizMockup.png"
+					alt="mobile and desktop view of application"
+				/>
+			</div>
+		</div>
 	</div>
-	<div />
 </div>
 
 <style>
+	@font-face {
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 300;
+		src: local('Montserrat'),
+			url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+	}
+
 	#wrapper {
+		background-color: rgb(87, 162, 162);
+	}
+
+	.description {
+		font-weight: 200;
+	}
+
+	#header {
+		background-color: rgb(87, 162, 162);
+		color: white;
+		font-family: sans-serif;
+		height: 100px;
+		margin: 0px;
+		z-index: 5;
+		padding-top: 20px;
+		padding-left: 20px;
+	}
+
+	#header p {
+		margin-top: 0px;
+		font-size: x-small;
+		width: 85%;
+	}
+
+	.textAboutProject {
 		display: flex;
-		justify-content: center;
 		flex-direction: column;
+		margin-top: -30px;
+		max-width: 80%;
+		font-family: sans-serif;
+	}
+
+	img {
+		height: 250px;
+	}
+
+	.imageWrapper {
+		align-content: center;
+	}
+
+	#portfolioContent {
+		background: white;
+		z-index: 10;
+		border-top-right-radius: 100px;
+	}
+
+	#vadFanSka {
+		display: flex;
+		flex-direction: column-reverse;
 		align-items: center;
 		text-align: center;
-		height: 100vh;
+		padding-top: 30px;
 	}
 
-	#animationLogo {
-		background: url('/src/lib/colorhat.png');
-		height: 190px;
-		width: 260px;
-		animation: animateCoder 5s steps(13) infinite;
+	#lyricalGenius {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		text-align: center;
 	}
 
-	@keyframes animateCoder {
-		from {
-			background-position: 0px;
+	h2 {
+		margin: 0px;
+		font-family: sans-serif;
+		font-weight: 200;
+	}
+
+	h1 {
+		font-size: 40px;
+		margin-bottom: 0px;
+		font-size: 80px;
+		margin-top: 35px;
+		letter-spacing: 5px;
+	}
+
+	a {
+		margin-bottom: 5px;
+		font-size: small;
+		color: black;
+	}
+
+	@media screen and (min-width: 625px) {
+		#vadFanSka {
+			flex-direction: row;
+			width: 95%;
 		}
-		to {
-			background-position: 3305px;
+
+		#lyricalGenius {
+			margin-top: 50px;
+			flex-direction: row;
+			width: 95%;
+		}
+
+		.textAboutProject {
+			text-align: left;
+			margin-left: 20px;
+		}
+
+		#portfolioContent {
+			padding-top: 50px;
+			padding-left: 20px;
+		}
+
+		#header {
+			padding-left: 30px;
+			height: 150px;
+		}
+
+		h1 {
+			font-size: 120px;
+			margin-top: 55px;
+			letter-spacing: 5px;
+			margin-right: 0px;
 		}
 	}
 
-	p {
-		font-family: monospace;
-		font-size: large;
-	}
-
-	.typewriter p {
-		overflow: hidden; /* Ensures the content is not revealed until the animation */
-		border-right: 0.15em solid yellow; /* The typwriter cursor */
-		white-space: nowrap; /* Keeps the content on a single line */
-		margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-		letter-spacing: 0.15em; /* Adjust as needed */
-		animation: typing 3.5s steps(40), blink-caret 0.75s infinite;
-	}
-
-	/* The typing effect */
-	@keyframes typing {
-		from {
-			width: 0;
+	@media screen and (min-width: 900px) {
+		h1 {
+			font-size: 150px;
+			margin-top: 30px;
 		}
-		to {
-			width: 100%;
-		}
-	}
 
-	/* The typewriter cursor effect */
-	@keyframes blink-caret {
-		from,
-		to {
-			border-color: transparent;
+		#vadFanSka {
+			max-width: 800px;
 		}
-		50% {
-			border-color: yellow;
+
+		#lyricalGenius {
+			max-width: 800px;
+		}
+
+		#portfolioContent {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			align-content: center;
+			justify-content: space-around;
+			margin-right: 0px;
 		}
 	}
 </style>
