@@ -15,7 +15,7 @@
 			their systems and I am very grateful for such a good internship. In September this year I will
 			graduate, and I’m hyped to get out there to continue my journey as a developer!
 			<br /><br />
-			Who am I then, except from what was mentioned above?. I am about a year away from turning 30 and
+			Who am I then, except from what was mentioned above? I am about a year away from turning 30 and
 			for about 26 years of my life I was a complete stranger to writing code. That changed in the first
 			act of the corona pandemic, when I got the boot from the recruitment firm I was working on (due
 			to the pandemic). I have been interested in software development and code for quite some time,
@@ -37,7 +37,7 @@
 			out with friends, cooking food and playing games.<br /><br />
 			So either you are here, just snooping around (which is completely fine), or you might have a work
 			opportunity for me. If that is the case you should get in touch! You´ll find my contact information
-			in my <a href="https://21adb6fa.web-resume-775.pages.dev/resume">resume</a>.
+			in my <a href="https://web-resume-775.pages.dev/resume">resume</a>.
 		</p>
 	</div>
 </div>
