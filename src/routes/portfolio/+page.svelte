@@ -78,6 +78,7 @@
 		z-index: 5;
 		padding-top: 20px;
 		padding-left: 5px;
+	
 	}
 
 	.description {

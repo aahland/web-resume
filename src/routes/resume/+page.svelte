@@ -1,4 +1,5 @@
 <script>
+	import '../../../src/app.css';
 	import experiences from '../../lib/experienceData.json';
 	import education from '../../lib/educationData.json';
 	import skills from '../../lib/skills.json';
@@ -12,7 +13,7 @@
 	</div>
 	<div class="maincontent">
 		<div id="experienceWrapper">
-			<h2>EXPERIENCE</h2>
+			<h2>Experience</h2>
 			<div id="experiences">
 				{#each experiences.experiences as experience, i}
 					<div class="ex" id="experience{i}">
@@ -27,7 +28,7 @@
 			</div>
 		</div>
 		<div id="educationWrapper">
-			<h2>EDUCATION</h2>
+			<h2>Education</h2>
 			<div id="educations">
 				{#each education.education as education}
 					<div class="ed" id="education1">
@@ -43,7 +44,7 @@
 		</div>
 	</div>
 	<div id="skillsAndLinks">
-		<h2>SKILLS</h2>
+		<h2>Skills</h2>
 		<div id="skills">
 			<div class="skillsGrid">
 				{#each skills as { skill }}
@@ -51,7 +52,7 @@
 				{/each}
 			</div>
 		</div>
-		<h2>LINKS</h2>
+		<h2>Links</h2>
 		<div id="linkswrapper">
 			<div id="links">
 				<div id="linkedinContainer">
@@ -66,7 +67,14 @@
 		</div>
 	</div>
 </div>
-
+<footer>
+	<div id="linksContainer">
+		<button><a href="https://web-resume-775.pages.dev">Home</a></button>
+		<button><a href="https://web-resume-775.pages.dev/portfolio">Portfolio</a></button>
+		<button><a href="https://web-resume-775.pages.dev/about">About</a></button>
+		<button><a href="https://github.com/aahland">Github</a></button>
+	</div>
+</footer>
 <style>
 	img {
 		height: 80px;
@@ -115,6 +123,8 @@
 		color: rgb(255, 255, 255);
 		background-color: rgb(87, 162, 162);
 		font-size: large;
+		font-weight: 200;
+		line-height: 24px;
 	}
 
 	.ex-top {
@@ -126,6 +136,7 @@
 
 	.ed-left {
 		font-size: larger;
+		
 	}
 
 	.ed {
@@ -138,6 +149,9 @@
 		background-color: rgb(87, 162, 162);
 		color: rgb(255, 255, 255);
 		font-size: larger;
+		line-height: 24px;
+		
+		
 	}
 
 	#experiences {
@@ -152,6 +166,7 @@
 		text-align: center;
 		height: 300px;
 		overflow: scroll;
+		font-weight: 200;
 	}
 
 	#header {
@@ -184,7 +199,7 @@
 
 	#linkswrapper {
 		text-align: center;
-		height: 300px;
+		height: 180px;
 	}
 
 	#links {
@@ -205,6 +220,7 @@
 
 	#phonenumber {
 		margin: 0px;
+		margin-bottom: 10px;
 	}
 
 	#email {
@@ -216,20 +232,24 @@
 		color: rgb(87, 162, 162);
 		font-size: 50px;
 		margin-bottom: 0px;
+		
 	}
 
 	h2 {
 		text-align: center;
-		text-decoration: underline;
+		/* text-decoration: underline; */
 		color: rgb(87, 162, 162);
 		margin-top: 2vh;
 		margin-bottom: 0px;
 		font-size: xx-large;
+		font-weight: 600;
 	}
 
 	h3 {
 		padding: 0px;
 		margin: 0px 0px 0px 0px;
+		font-weight: 400;
+		line-height: 30px;
 	}
 
 	.skillsGrid {
@@ -260,14 +280,53 @@
 		justify-content: center;
 		align-content: center;
 		align-items: center;
-		font-family: monospace;
+		font-family: Montserrat, sans-serif;
 	}
 
 	#skills {
-		padding: 5px;
+		padding: 8px;
+	}
+
+	footer {
+		background: rgb(87, 162, 162);
+		height: 50px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	#linksContainer {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+	}
+
+	button {
+		height: fit-content;
+		background-color: white;
+		border: none;
+		border-radius: 5px;
+	}
+
+	button:hover {
+		height: 30px;
+	}
+
+	button a {
+		text-decoration: none;
+		color: rgb(87, 162, 162);
+		font-weight: bold;
+		font-family: Montserrat, sans-serif;
+		font-size: medium;
 	}
 
 	@media screen and (max-width: 450px) {
+		h1 {
+			width: 800px;
+		}
+
 		.ed {
 			font-size: small;
 		}
@@ -281,6 +340,7 @@
 
 		h2 {
 			margin-bottom: 10px;
+			
 		}
 
 		.skill {
@@ -298,6 +358,10 @@
 	}
 
 	@media screen and (max-width: 600px) {
+		h1 {
+			width: 300px;
+		}
+
 		.ed {
 			font-size: medium;
 		}
@@ -325,6 +389,10 @@
 	}
 
 	@media screen and (min-width: 900px) {
+		h1 {
+			width: 800px;
+		}
+
 		.ed {
 			font-size: large;
 		}
@@ -347,7 +415,7 @@
 
 		.school {
 			margin: 0px 0px 0px 0px;
-			font-weight: bold;
+			
 		}
 
 		h2 {

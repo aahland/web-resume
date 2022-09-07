@@ -1,4 +1,6 @@
-<script></script>
+<script>
+	import '../../../src/app.css';
+</script>
 
 <div id="wrapper">
 	<div id="letter-container">
@@ -51,8 +53,8 @@
 		width: 800px;
 		padding: 20px;
 		border-radius: 10px;
-		font-family: monospace;
-		line-height: 20px;
+		font-family: Montserrat, sans-serif;
+		line-height: 25px;
 		font-size: large;
 		margin-top: 20px;
 	}
