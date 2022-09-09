@@ -323,6 +323,10 @@
 		footer {
 			margin-top: 100px;
 		}
+
+		#linksContainer {
+			gap: 10px;
+		}
 	}
 
 	@media screen and (max-width: 450px) {
