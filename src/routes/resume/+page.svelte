@@ -69,12 +69,13 @@
 </div>
 <footer>
 	<div id="linksContainer">
-		<button><a href="https://web-resume-775.pages.dev">Home</a></button>
-		<button><a href="https://web-resume-775.pages.dev/portfolio">Portfolio</a></button>
-		<button><a href="https://web-resume-775.pages.dev/about">About</a></button>
+		<button><a href="https://aah-lander.com/">Home</a></button>
+		<button><a href="https://aah-lander.com/portfolio">Portfolio</a></button>
+		<button><a href="https://aah-lander.com/about">About</a></button>
 		<button><a href="https://github.com/aahland">Github</a></button>
 	</div>
 </footer>
+
 <style>
 	img {
 		height: 80px;
@@ -136,7 +137,6 @@
 
 	.ed-left {
 		font-size: larger;
-		
 	}
 
 	.ed {
@@ -150,8 +150,6 @@
 		color: rgb(255, 255, 255);
 		font-size: larger;
 		line-height: 24px;
-		
-		
 	}
 
 	#experiences {
@@ -232,7 +230,6 @@
 		color: rgb(87, 162, 162);
 		font-size: 50px;
 		margin-bottom: 0px;
-		
 	}
 
 	h2 {
@@ -340,7 +337,6 @@
 
 		h2 {
 			margin-bottom: 10px;
-			
 		}
 
 		.skill {
@@ -415,7 +411,6 @@
 
 		.school {
 			margin: 0px 0px 0px 0px;
-			
 		}
 
 		h2 {

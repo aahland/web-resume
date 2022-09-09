@@ -37,7 +37,7 @@
 			out with friends, cooking food and playing games.<br /><br />
 			So either you are here, just snooping around (which is completely fine), or you might have a work
 			opportunity for me. If that is the case you should get in touch! You´ll find my contact information
-			in my <a href="https://web-resume-775.pages.dev/resume">resume</a>.
+			in my <a href="https://aah-lander.com/resume">resume</a>.
 		</p>
 	</div>
 </div>

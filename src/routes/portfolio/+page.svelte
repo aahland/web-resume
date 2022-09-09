@@ -57,9 +57,9 @@
 </div>
 <footer>
 	<div id="linksContainer">
-		<button><a href="https://web-resume-775.pages.dev">Home</a></button>
-		<button><a href="https://web-resume-775.pages.dev/resume">Resume</a></button>
-		<button><a href="https://web-resume-775.pages.dev/about">About</a></button>
+		<button><a href="https://aah-lander.com/">Home</a></button>
+		<button><a href="https://aah-lander.com/resume">Resume</a></button>
+		<button><a href="https://aah-lander.com/about">About</a></button>
 		<button><a href="https://github.com/aahland">Github</a></button>
 	</div>
 </footer>
@@ -78,7 +78,6 @@
 		z-index: 5;
 		padding-top: 20px;
 		padding-left: 5px;
-	
 	}
 
 	.description {
@@ -163,13 +162,13 @@
 		flex-direction: row;
 		justify-content: space-evenly;
 		align-items: center;
-		margin-top: 20px;
+		margin-top: 30px;
 	}
 
 	#linksContainer {
 		display: flex;
 		flex-direction: row;
-		gap: 30px;
+		gap: 20px;
 	}
 
 	button {

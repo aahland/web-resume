@@ -1,14 +1,14 @@
 <script>
 	function openResume() {
-		window.location.href = 'https://web-resume-775.pages.dev/resume';
+		window.location.href = 'https://aah-lander.com/resume';
 	}
 
 	function openAbout() {
-		window.location.href = 'https://web-resume-775.pages.dev/about';
+		window.location.href = 'https://aah-lander.com/about';
 	}
 
 	function openPortfolio() {
-		window.location.href = 'https://web-resume-775.pages.dev/portfolio';
+		window.location.href = 'https://aah-lander.com/portfolio';
 	}
 </script>
 
