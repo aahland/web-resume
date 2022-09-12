@@ -17,7 +17,7 @@
 					latest SvelteKit and is hosted on Cloudflare using edge computing and cloudflare workers.
 					The project is hooked up to a headless CMS and is using BasicAuth for authification.
 				</p>
-				<a href="www.vadfanskajagkopa.se">www.vadfanskajagkopa.se</a>
+				<a href="https://vadfanskajagkopa.se/">www.vadfanskajagkopa.se</a>
 				<a href="github.com">github-link-if-possible</a>
 			</div>
 			<div class="imageWrapper">

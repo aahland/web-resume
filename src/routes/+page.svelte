@@ -1,4 +1,6 @@
 <script>
+	import '../../src/app.css';
+
 	function openResume() {
 		window.location.href = 'https://aah-lander.com/resume';
 	}
@@ -14,9 +16,8 @@
 
 <div id="container">
 	<div id="textLogo">
-		<p id="name">Anton Åhlander</p>
-		<p class="dots">...</p>
-		<p>aahland</p>
+		<p class="fName">Anton</p>
+		<p class="lName">Åhlander</p>
 	</div>
 	<div id="animationContainer">
 		<div id="animationLogo" />
@@ -41,16 +42,15 @@
 		justify-content: center;
 	}
 
-	.dots {
-		color: rgb(87, 162, 162);
-		margin: 0px;
-		margin-bottom: 10px;
-		font-size: 30px;
-		line-height: 10px;
+	.fName {
+		margin-bottom: 0px;
+		font-family: Montserrat, sans-serif;
 	}
 
-	#name {
+	.lName {
 		margin-bottom: 0px;
+		font-family: Montserrat, sans-serif;
+		font-size: larger;
 	}
 
 	#animationContainer {
@@ -107,11 +107,12 @@
 
 	.navBtn {
 		border: 2px solid black;
-		width: fit-content;
+		width: 100px;
 		height: 40px;
 		background: white;
-		font-family: monospace;
-		font-size: larger;
+		font-family: Montserrat, sans-serif;
+		font-size: medium;
+		font-weight: 600;
 	}
 
 	.navBtn:hover {
@@ -122,10 +123,10 @@
 
 	#aboutBtn {
 		margin-left: 10px;
-		width: 72px;
+		width: 90px;
 	}
 	#resumeBtn {
 		margin-right: 10px;
-		width: 72px;
+		width: 90px;
 	}
 </style>
