@@ -25,11 +25,12 @@
 	<div id="navContainer">
 		<nav>
 			<ul>
-				<button on:click={openResume} class="navBtn" id="resumeBtn">Resume</button>
-				<button on:click={openAbout} class="navBtn" id="aboutBtn">About</button>
+				<button tabindex="0" on:click={openResume} class="navBtn" id="resumeBtn">Resume</button>
+				<button tabindex="0" on:click={openAbout} class="navBtn" id="aboutBtn">About</button>
 			</ul>
 		</nav>
-		<button on:click={openPortfolio} class="navBtn" id="portfolioBtn">Portfolio</button>
+		<button tabindex="0" on:click={openPortfolio} class="navBtn" id="portfolioBtn">Portfolio</button
+		>
 	</div>
 </div>
 
@@ -119,6 +120,12 @@
 		background: rgb(87, 162, 162);
 		color: white;
 		border: 1px solid white;
+	}
+
+	.navBtn:focus {
+		background: rgb(87, 162, 162);
+		color: white;
+		outline: none;
 	}
 
 	#aboutBtn {
