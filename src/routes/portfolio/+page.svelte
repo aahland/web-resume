@@ -11,14 +11,14 @@
 			<div class="textAboutProject">
 				<h2>Vadfanskajagköpa.se</h2>
 				<p class="description">
-					Vadfanskajagköpa.se is a stand-alone project built by me and my internship colleague at
-					Coolstuff. The site is aiming to present random coolstuff products with a short and fun
-					description to drive traffic to coolstuff's webshop. The project was written with the
-					latest SvelteKit and is hosted on Cloudflare using edge computing and cloudflare workers.
-					The project is hooked up to a headless CMS and is using BasicAuth for authification.
+					Vadfanskajagköpa.se is a project built by me and another intern at Coolstuff. The site is
+					aiming to present random Coolstuff products with a short and fun description to drive
+					traffic to Coolstuff's webshop. We have written the project with the latest Sveltekit
+					together with typescript. The project is hosted on the edge via cloudflare and is
+					serverless using cloudflare workers for responding to requests. The project is hooked up
+					to a headless CMS and is using webhooks with BasicAuth to get the latest data.
 				</p>
 				<a href="https://vadfanskajagkopa.se/">www.vadfanskajagkopa.se</a>
-				<a href="github.com">github-link-if-possible</a>
 			</div>
 			<div class="imageWrapper">
 				<img
@@ -36,7 +36,9 @@
 					is to match a snippet of a song lyric to the correct song. In other words, a music quiz
 					where song lyrics are the essential part of the question. The project was written with
 					SvelteKit and uses socket.io for the multiplayer functionality. This project was my final
-					project in school but has been updated since.
+					project in school but has been updated since. Quite recently the API that I used for
+					getting the song lyrics was taken down and therefor I am now using my own API for song
+					lyrics. Project is hosted on Heroku.
 				</p>
 				<a href="https://quiz-lyrical-genius.herokuapp.com"
 					>https://quiz-lyrical-genius.herokuapp.com/</a
