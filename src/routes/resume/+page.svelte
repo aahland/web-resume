@@ -57,11 +57,11 @@
 			<div id="links">
 				<div id="linkedinContainer">
 					<a href="https://www.linkedin.com/in/anton-%C3%A5hlander-038a3a42/">
-						<img id="linkedin" src="/images/linkedinLogo.png" alt="linkedIn logo" />
+						<img rel="noopener noreferrer" target="_blank" id="linkedin" src="/images/linkedinLogo.png" alt="linkedIn logo" />
 					</a>
 				</div>
 				<a href="https://github.com/aahland">
-					<img id="github" src="/images/githublogotype.png" alt="github logo" />
+					<img rel="noopener noreferrer" target="_blank" id="github" src="/images/githublogotype.png" alt="github logo" />
 				</a>
 			</div>
 		</div>
