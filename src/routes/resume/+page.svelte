@@ -72,7 +72,7 @@
 		<button><a href="https://aah-lander.com/">Home</a></button>
 		<button><a href="https://aah-lander.com/portfolio">Portfolio</a></button>
 		<button><a href="https://aah-lander.com/about">About</a></button>
-		<button><a href="https://github.com/aahland">Github</a></button>
+		<button><a rel="noopener noreferrer" target="_blank" href="https://github.com/aahland">Github</a></button>
 	</div>
 </footer>
 

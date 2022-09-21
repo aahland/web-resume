@@ -18,7 +18,7 @@
 					serverless using cloudflare workers for responding to requests. The project is hooked up
 					to a headless CMS and is using webhooks with BasicAuth to get the latest data.
 				</p>
-				<a href="https://vadfanskajagkopa.se/">www.vadfanskajagkopa.se</a>
+				<a rel="noopener noreferrer" target="_blank" href="https://vadfanskajagkopa.se/">www.vadfanskajagkopa.se</a>
 			</div>
 			<div class="imageWrapper">
 				<img
@@ -40,10 +40,10 @@
 					getting the song lyrics was taken down and therefor I am now using my own API for song
 					lyrics. Project is hosted on Heroku.
 				</p>
-				<a href="https://quiz-lyrical-genius.herokuapp.com"
+				<a rel="noopener noreferrer" target="_blank" href="https://quiz-lyrical-genius.herokuapp.com"
 					>https://quiz-lyrical-genius.herokuapp.com/</a
 				>
-				<a href="https://github.com/aahland/lyrical-genius"
+				<a rel="noopener noreferrer" target="_blank" href="https://github.com/aahland/lyrical-genius"
 					>https://github.com/aahland/lyrical-genius</a
 				>
 			</div>
@@ -62,7 +62,7 @@
 		<button><a href="https://aah-lander.com/">Home</a></button>
 		<button><a href="https://aah-lander.com/resume">Resume</a></button>
 		<button><a href="https://aah-lander.com/about">About</a></button>
-		<button><a href="https://github.com/aahland">Github</a></button>
+		<button><a rel="noopener noreferrer" target="_blank" href="https://github.com/aahland">Github</a></button>
 	</div>
 </footer>
 
